@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación de Palabras</title>
+    <link rel="stylesheet" href="css1.css">
+</head>
+<body>
+    <h1>Clasifica las palabras en su categoría</h1>
+    <div id="categorias" class="zona-categorias">
+        <div class="categoria" data-categoria="Frutas">
+            <h2>Frutas</h2>
+        </div>
+        <div class="categoria" data-categoria="Animales">
+            <h2>Animales</h2>
+        </div>
+        <div class="categoria" data-categoria="Colores">
+            <h2>Colores</h2>
+        </div>
+    </div>
+    <div id="palabras" class="zona-palabras">
+        <div draggable="true" class="palabra" id="palabra1">Manzana</div>
+        <div draggable="true" class="palabra" id="palabra2">Perro</div>
+        <div draggable="true" class="palabra" id="palabra3">Rojo</div>
+        <div draggable="true" class="palabra" id="palabra4">Azul</div>
+        <div draggable="true" class="palabra" id="palabra5">Gato</div>
+        <div draggable="true" class="palabra" id="palabra6">Naranja</div>
+    </div>
+    <button id="validar">Validar</button>
+    <p id="resultado"></p>
+
+    <script src="java1.js"></script>
+</body>
+</html>

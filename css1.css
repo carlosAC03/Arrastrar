@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.zona-palabras {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.palabra {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: grab;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.zona-categorias {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.categoria {
+    width: 30%;
+    padding: 70px;
+    border: 2px dashed #ccc;
+    border-color: black;
+    background-color: gainsboro;
+}
+h2 {
+    margin-bottom: 100px;
+}
+.categoria .palabra {
+    margin: 5px;
+    cursor: default;
+}
+
+.palabra.correcta {
+    background-color: #03b32c;
+    border-color: #03b32c;
+}
+
+.palabra.incorrecta {
+    background-color: #fa0519;
+    border-color: #fa0519;
+}
